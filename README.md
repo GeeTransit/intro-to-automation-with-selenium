@@ -18,3 +18,13 @@ Move the Selenium webdriver into the same folder.
 ## Run
 
 Run the script using: `poetry run python script.py`
+
+## Notes
+
+There can be multiple CSS selectors that all find the same element. Don't worry
+if your code uses a different way of reaching an element.
+
+For a different browser, you can change the code from `webdriver.Firefox()` to
+user some other class, including `Chrome`, `Edge`, `Safari`, and more.
+
+Get other webdrivers: https://selenium-python.readthedocs.io/installation.html#drivers
